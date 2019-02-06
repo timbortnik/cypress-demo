@@ -1,0 +1,26 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "Cypress + Docker = ❤️",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test-junit": "cypress run --reporter junit --reporter-options 'mochaFile=junit-results/my-test-output.xml'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbortnik/cypress-demo.git"
+  },
+  "keywords": [],
+  "author": "Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timbortnik/cypress-demo/issues"
+  },
+  "homepage": "https://github.com/timbortnik/cypress-demo#readme",
+  "devDependencies": {
+    "cypress": "^3.1.5",
+    "cypress-cucumber-preprocessor": "^1.9.1"
+  },
+  "dependencies": {}
+}
